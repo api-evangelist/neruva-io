@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-neruva-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://neruva.io/
+Neruva provides a memory layer for AI coding agents, enabling them to recall prior decisions, facts, and session data across runs. Built for Claude Code, it offers an MCP server at api.neruva.io that stores records, knowledge graphs, causal links, analogies, and memory indexes. The platform powers the SECOND STRIKE game and supports developers to build stateful AI applications with persistent memory, versioned records, and secure storage.
+
+**Areas:** Company · Memory · AI · Agents · MCP
+
+## neruva-io on APIs.io
+
+Everything profiled for neruva-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/neruva-io/](https://apis.io/providers/neruva-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (13)
+
+- [Neruva Internal API](https://apis.io/apis/neruva-io/neruva-internal-api/) — Internal API for Neruva platform.
+- [neruva-io Agent Cognitive API](https://apis.io/apis/neruva-io/neruva-io-agent-cognitive-api/) — The agent-cognitive API from neruva-io — 13 operation(s) for agent-cognitive.
+- [neruva-io Agent Federated API](https://apis.io/apis/neruva-io/neruva-io-agent-federated-api/) — The agent-federated API from neruva-io — 20 operation(s) for agent-federated.
+- [neruva-io Audit API](https://apis.io/apis/neruva-io/neruva-io-audit-api/) — The audit API from neruva-io — 3 operation(s) for audit.
+- [neruva-io Commons API](https://apis.io/apis/neruva-io/neruva-io-commons-api/) — The commons API from neruva-io — 39 operation(s) for commons.
+- [neruva-io Hd Native API](https://apis.io/apis/neruva-io/neruva-io-hd-native-api/) — The hd-native API from neruva-io — 37 operation(s) for hd-native.
+- [neruva-io Health API](https://apis.io/apis/neruva-io/neruva-io-health-api/) — The Health API from neruva-io — 1 operation(s) for health.
+- [neruva-io Indexes API](https://apis.io/apis/neruva-io/neruva-io-indexes-api/) — The Indexes API from neruva-io — 16 operation(s) for indexes.
+- [neruva-io Me API](https://apis.io/apis/neruva-io/neruva-io-me-api/) — The me API from neruva-io — 5 operation(s) for me.
+- [neruva-io Memory API](https://apis.io/apis/neruva-io/neruva-io-memory-api/) — The Memory API from neruva-io — 1 operation(s) for memory.
+- [neruva-io Neruva API](https://apis.io/apis/neruva-io/neruva-io-neruva-api/) — The Neruva API from neruva-io — 1 operation(s) for neruva.
+- [neruva-io Pii API](https://apis.io/apis/neruva-io/neruva-io-pii-api/) — The pii API from neruva-io — 4 operation(s) for pii.
+- [neruva-io Records API](https://apis.io/apis/neruva-io/neruva-io-records-api/) — The records API from neruva-io — 12 operation(s) for records.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Neruva Io Agentic Access](https://apis.io/agentic-access/neruva-io/neruva-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentRecallRequest](https://apis.io/schemas/neruva-io/neruva-io-agent-recall-request/)
+- [AgentRememberRequest](https://apis.io/schemas/neruva-io/neruva-io-agent-remember-request/)
+- [ModelBeliefAddRequest](https://apis.io/schemas/neruva-io/neruva-io-model-belief-add-request/)
+- [RecordQueryRequest](https://apis.io/schemas/neruva-io/neruva-io-record-query-request/)
+- [Rung](https://apis.io/schemas/neruva-io/neruva-io-rung/)
+- [RungIn](https://apis.io/schemas/neruva-io/neruva-io-rung-in/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Neruva Io Context](https://apis.io/jsonld/neruva-io/neruva-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [neruva-io API Rules](https://apis.io/rules/neruva-io/neruva-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Neruva Io Authentication](https://apis.io/security/neruva-io/neruva-io-authentication/)
+- [Neruva Io Domain Security](https://apis.io/security/neruva-io/neruva-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Neruva Io Scopes](https://apis.io/scopes/neruva-io/neruva-io-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://neruva.io/)
+- [Documentation](https://api.neruva.io/docs)
+- [Getting started](https://neruva.io/#use)
+- [API reference](https://api.neruva.io/openapi.json)
+- [Support](https://simgen.dev/contact)
+- [Security](https://neruva.io/security/)
+- [Terms of service](https://neruva.io/terms/)
+- [Privacy policy](https://neruva.io/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 48.5** — developing · rubric 0.25.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 50.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 39.3** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | mostly |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/neruva-io/](https://apis.io/providers/neruva-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for neruva-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/neruva-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
